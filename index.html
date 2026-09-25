@@ -3,75 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Intelligence Designed To Evolve — a production AI platform." />
-    <title>Intelligence Designed To Evolve</title>
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Fearless vision delivered — creative studios built around elevating your vision into striking reality." />
+    <title>Fearless Vision Delivered</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link href="https://db.onlinewebfonts.com/c/8cb707a9b8a73f8a7403336b861c3074?family=BubbledotICG-FinePos" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="main.js" defer></script>
   </head>
   <body>
-    <main class="page">
-      <div class="bg" aria-hidden="true">
-        <video class="bg-video" autoplay muted loop playsinline>
-          <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4" type="video/mp4" />
+    <main class="page" id="top">
+      <div class="background" aria-hidden="true">
+        <video class="background-video" autoplay muted loop playsinline>
+          <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_222138_3e3205be-3364-417b-a64a-bfe087acbec4.mp4" type="video/mp4" />
         </video>
-        <div class="video-shade"></div>
+        <div class="video-wash"></div>
       </div>
 
-      <header class="site-header anim-header">
-        <a class="logo-button" href="#top" aria-label="Home">
-          <img src="assets/logo.webp" alt="" width="52" height="52" />
-        </a>
+      <header class="site-header">
+        <a class="logo" href="#top" aria-label="Home"><span></span></a>
         <nav class="desktop-nav" aria-label="Primary navigation">
-          <a class="nav-link active" href="#top">Home</a>
-          <a class="nav-link" href="#product">Product</a>
-          <a class="nav-link" href="#case-studies">Case Studies</a>
-          <a class="nav-link" href="#contact">Contact</a>
+          <a href="#story">Story</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#studios">Studios</a>
+          <a href="#feedback">Feedback</a>
         </nav>
-        <a class="sign-in desktop-sign-in" href="#contact">Sign in</a>
-        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
           <span></span><span></span><span></span>
         </button>
       </header>
 
-      <div class="mobile-overlay" hidden></div>
-      <nav class="mobile-menu" id="mobile-menu" hidden aria-label="Mobile navigation">
-        <a class="mobile-link active" href="#top">Home</a>
-        <a class="mobile-link" href="#product">Product</a>
-        <a class="mobile-link" href="#case-studies">Case Studies</a>
-        <a class="mobile-link" href="#contact">Contact</a>
-        <a class="sign-in mobile-sign-in" href="#contact">Sign in</a>
-      </nav>
-
-      <section class="hero" id="top">
-        <div class="trust-row anim" style="--d: .05s">
-          <div class="avatars" aria-label="Trusted by Microsoft, Amazon, and Google">
-            <span class="avatar avatar-one"><span class="avatar-inner"><i class="fa-brands fa-microsoft"></i></span></span>
-            <span class="avatar avatar-two"><span class="avatar-inner"><i class="fa-brands fa-amazon"></i></span></span>
-            <span class="avatar avatar-three"><span class="avatar-inner"><i class="fa-brands fa-google"></i></span></span>
-          </div>
-          <span class="trust-pill">Trusted by 2000+ Enterprises</span>
+      <section class="stats-row" aria-label="Studio statistics">
+        <div class="stat-card" style="--delay: .24s">
+          <div class="stat-number"><span class="plus">+</span><span>300</span></div>
+          <div class="stat-label">Crafted<br />Brands</div>
         </div>
-
-        <h1 class="headline" aria-label="Intelligence Designed To Evolve">
-          <span class="headline-line">Intelligence</span>
-          <span class="headline-line">Designed To Evolve</span>
-        </h1>
-        <p class="subhead anim" style="--d: .28s">Build applications that reason, adapt and collaborate using a modular AI platform designed for production.</p>
-        <a class="cta anim" style="--d: .4s" href="#product">Get Started <span aria-hidden="true">↗</span></a>
+        <div class="stat-card" style="--delay: .36s">
+          <div class="stat-number"><span class="plus">+</span><span>200</span></div>
+          <div class="stat-label">Digital<br />Products</div>
+        </div>
+        <div class="stat-card" style="--delay: .48s">
+          <div class="stat-number"><span class="plus">+</span><span>100</span></div>
+          <div class="stat-label">Ventures<br />Funded</div>
+        </div>
       </section>
 
-      <footer class="stats" aria-label="Platform metrics">
-        <div class="stat anim" style="--d: .5s"><span class="stat-icon">&lt;</span><div><div class="stat-value"><span class="count" data-target="120" data-decimals="0">0</span><span class="suffix">ms</span></div><div class="stat-label">Inference Time</div></div></div>
-        <div class="stat anim" style="--d: .58s"><span class="stat-icon">%</span><div><div class="stat-value"><span class="count" data-target="99.99" data-decimals="2">0.00</span><span class="suffix">%</span></div><div class="stat-label">Platform Uptime</div></div></div>
-        <div class="stat anim" style="--d: .66s"><span class="stat-icon">*</span><div><div class="stat-value"><span class="count" data-target="24" data-decimals="0">0</span><span class="suffix">/7</span></div><div class="stat-label">Autonomous Runtime</div></div></div>
-        <div class="stat anim" style="--d: .74s"><span class="stat-icon">#</span><div><div class="stat-value"><span class="count" data-target="2.4" data-decimals="1">0.0</span><span class="suffix">M</span></div><div class="stat-label">Context Windows</div></div></div>
-      </footer>
+      <section class="bottom-content">
+        <div class="top-row">
+          <p class="tagline reveal" style="--delay: .6s">Shaping Bold<br />Visions Into Power<br />For Your Tribe</p>
+          <a class="cta reveal" style="--delay: .72s" href="#contact">Work With Us <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+        </div>
+        <div class="heading-row">
+          <p class="description reveal" style="--delay: .84s">Creative Studios Built Around Elevating Your Vision Into Striking Reality</p>
+          <h1 class="headline" aria-label="Fearless Vision Delivered">
+            <span><b style="--word-delay: .4s">Fearless</b></span>
+            <span><b style="--word-delay: .54s">Vision</b></span>
+            <span><b style="--word-delay: .68s">Delivered</b></span>
+          </h1>
+        </div>
+      </section>
     </main>
+
+    <div class="mobile-overlay" hidden></div>
+    <aside class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <div class="mobile-menu-top">
+        <a class="logo" href="#top" aria-label="Home"><span></span></a>
+        <button class="close-button" type="button" aria-label="Close menu"><span></span><span></span></button>
+      </div>
+      <nav class="mobile-nav">
+        <a href="#story">Story</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#studios">Studios</a>
+        <a href="#feedback">Feedback</a>
+      </nav>
+      <a class="mobile-cta" href="#contact">Work With Us <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+    </aside>
   </body>
 </html>
